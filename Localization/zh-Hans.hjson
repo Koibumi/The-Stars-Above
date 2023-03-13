@@ -11,6 +11,17 @@
           Negative: Negative Chaos!
           
         }
+	KissOfDeath:
+        {
+          Skyfish: Skyfish deployed!
+          Thunderbird: Thunderbird deployed!
+          BehemothTyphoon: Behemoth Typhoon deployed!
+          FullyCharged: Uppercut fully charged!
+        }
+        Nalhaun:
+        {
+          ManifestBlade: The Burnished King channels energy into Laevateinn, leaving his defenses drastically lowered!
+        }
       }
       SubworldName:
       {
