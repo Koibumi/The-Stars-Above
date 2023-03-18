@@ -1129,13 +1129,13 @@
           {
             Asphodene:
             {
-              1: 你已经击败了硫磺火元素。看来在灾厄把它撕成碎片之前，它们是地狱的强大文明中受人尊敬的女神。
-              2: 我说我们要尽早与她对峙，而不是迟早。她一定强到离谱，但是……我们至少得做点什么。
+              1: You've defeated the Brimstone Elemental. It seems they were once a revered goddess of the Underworld's mighty civilization, before it was destroyed.
+              2: Whoever did this must be a fearsome foe, indeed. While I do like a challenge, there's no beating around the bush: we have to get stronger.
             }
             Eridani:
             {
               1: 烈火燃烧着的灵魂已不复存在。硫磺火的文明一定很强大，才会如此崇拜这种元素。我们只是在她最弱的时候与她战斗。
-              2: 如果我们所知道的是正确的，灾厄是硫磺火王国的终结者。虽然我想结束她的罪行，但我们必须先变得更强大。
+             2: Whatever caused this destruction has to be stopped... but we must get stronger to do so.
             }
           }
           Calamitas:
@@ -2729,7 +2729,7 @@
         {
           StellarNovaQuotes:
           {
-            Asphodene:
+            1:
             {
               Special1: 我绝不会放弃！
               Special2: 别想逃。
@@ -2747,7 +2747,7 @@
               9: 我会让你见证我真正的力量。
               10: 等等，我们又在用哪一招了？……是这个吗？
             }
-            Eridani:
+            2:
             {
               Special1: 是时候证明我的实力了。
               Special2: 别想逃。
