@@ -432,7 +432,7 @@
             19: 这是一件传说中的近战神器！这个精华所制成的武器可以对任何敌人造成crippling减益！
             20: 这个精华将创造一个辅助物品。如果你能活下去，它将给你和你的队友带来强大的增益。
             21: 光之战士给了我这个精华的灵感。它似乎是一把通往无限武器的宝库的钥匙，能造成召唤伤害
-            22: 如果你感觉灵感来了，试着把你的敌人If you feel inspired, try referring to your foes as mongrels.
+            22: 如果你感觉灵感来了，试着把你的敌人称作杂种。
             23: 这个精华能创造一个具有高魔力消耗的远程武器，拥有极高的暴击伤害修正。
             24: 可以用吗？当然可以。理论这全都是你的。
             25: 这是一件召唤武器。它似乎有非常独特的缩放属性，而且攻击速度惊人。
@@ -491,14 +491,14 @@
             78: 这片墓地似乎和这种精华有所联系。希望这些墓碑不是你死后留下的，对吧？
             79: 嗯……这个召唤武器的精华可以用于制造某种遥控无人机——我想知道能不能和它们交流。
             80: 这确实是一把近战武器——此外，它似乎在远距离表现出色,也能在近身搏斗中提供额外火力。真不错。
-            81: I plundered a Ranged-sort of essence from the likeness of those pirates. Sea... water... Actually, looks like I'm nearly dry with ocean jokes, so I'll anchor myself now.
+            81: 我从那些像是海盗的家伙手里抢来了这个远程精华。……礁礁这石什么！呃……讲真的，我的航海笑话快讲干了，我现在该抛锚补货了。
             82: 呃呃，我不确定这个精华能做出什么东西，只知道它是把召唤武器。你最好亲自试试，免得你搞砸了。
             83: 这个时钟是一把召唤武器-看起来它会召唤出一只可爱的时间盟友。如果你能适应她的战斗风格，她会给你提供很大的帮助。
             84: 唔……也许你能用它躲开来袭的攻击……？
-	          85: 看上去这把远程武器能轻易击溃成群的敌人。听起来它能派上用场——尤其是那个摆动的巨型棺木。
-            86: Looks like this Essence is both Magic and Melee aspected- it crackles with lightning already. How about giving it a shot?
-            85: It looks to me like this Ranged-weapon has the ability to down hordes of foes pretty easily. Sounds like it'll come in handy- especially the giant coffin swings!
-            87: How about this Essence? It'll give you an enhanced barrier, able to protect yourself while helping you deal some damage without worry of repercussions.
+	          85: 看上去这把远程武器能轻易击溃成群的敌人。听起来它能派上用场——尤其是那个摆动的巨型棺木！
+            86: 看上去这个精华兼备了魔法与近战——它已经开始噼啪作响了。试一试怎么样？
+            85: 看上去这把远程武器能轻易击溃成群的敌人。听起来它能派上用场——尤其是那个摆动的巨型棺木！
+            87: 这个精华怎么样？它将给予你一层附魔屏障，保护你免受伤害而无后顾之忧。
 
           }
           Eridani:
@@ -511,7 +511,7 @@
             6: 不管它是什么，它应该对你有用。忽略它说的事实。
             7: 我为你准备了一种精华。它能创造一个魔法类型武器。显然，为了更好地运用这把武器，你需要卡点。
             8: 我相信你能轻易掌握它。好吧，“相信”是个谎言。也许有1/4的怀疑。
-            9: 这个精华是用来制作 "Death in Four Acts "的升级版。它很可能拥有很强大的远程强度。
+            9: 这个精华是用来制作 "四幕之内的死亡"的升级版。它很可能拥有很强大的远程强度。
             10: 此精华制成的武器是基于音乐的…卡好挥舞的时机才能完美使用它。
             11: 就算只是拿着它也会让你感受到某种节奏……
             12: 这个精华将创造一个屠龙的传说武器。跃至空中，用它的力量刺穿你的敌人。
@@ -590,8 +590,8 @@
             85: 我不知道该怎么定义这个召唤类型的精华，所以我准备把它留给你练手。呃……祝你好运。
             86: 这把召唤武器能召唤出一只迷人的时间生物，它同时兼顾了攻击与防御。
 	          87: 这个精华对应了一把远程武器，但它似乎更适合在近距离发挥作用。别靠的太近了，但尽量发挥出它的特性。
-            88: Seems like this is a Melee and Magic type Essence in tandem. From what I can see, it'll make a powerful weapon that channels the power of lightning.
-            89: This Essence is a support-type item. It'll provide a powerful barrier and allow you to sap life energy from your foes as well... It'll be quite the powerful tool.
+            88: 它似乎将一个近战精华和远程精华的串联起来了。就我看，它能制作出一把掌控雷霆之力的强大武器。
+            89: 这个精华对应了一件辅助工具。它将赋予你一层牢固的屏障，并从你的敌人那里汲取生命能量……这将是一件得力的工具。
           }
           Perseus:
           {
@@ -786,7 +786,7 @@
               1: 你做到了！石巨人不复存在。你势不可挡。
               2: 我感觉下一个敌人……很危险。似乎天体能量在地牢入口周围聚集。
               3: 天体序列有了另一项升级。看起来很强大。
-              4: Well, that's about everything.
+              4: 嗯，差不多就这些了。
             }
             Eridani:
             {
@@ -920,14 +920,14 @@
             {
               1: 所以这就是复光之君。他的刀刃威力惊人，而魔法更是强大。你挺过来了，这也是一次胜利。
               2: 我看来，复光之君应该算被打败了。此外，这里还有一处疑点。
-              3: I guess we'll add it to the collection- no harm in that.
+              3: 我想我们该把它加入到我们的收藏中——这没什么坏处。
               4: 我认为我们可以把他的武器据为己有，作为一种新的天体新星使用。也许是因为承星者的影响？
             }
             Eridani:
             {
               1: 复光之君已经倒下了。多么强大的敌人啊。要是我们在他的全盛时期与其战斗，我想都不敢想我们会有怎样的结果。
               2: 现在看来，复光之君在很久以前就被最初的星海旅者击败了。
-              3: Let's take care of this strange object- it must have some significance. While we're on the topic...
+              3: 来看看这个奇怪的物体——它一定有什么意义。既然我们谈到了这个话题……
               4: 他的武器，魔剑·莱瓦汀。我们可以自己使用，作为一种天体新星。也许是因为承星者的影响？
             }
           }
@@ -1129,13 +1129,13 @@
           {
             Asphodene:
             {
-              1: You've defeated the Brimstone Elemental. It seems they were once a revered goddess of the Underworld's mighty civilization, before it was destroyed.
-              2: Whoever did this must be a fearsome foe, indeed. While I do like a challenge, there's no beating around the bush: we have to get stronger.
+              1: 你战胜了硫磺火元素。在这里被付之一炬前，她似乎曾是地狱强大文明所崇拜的女神。
+              2: 施下这场暴行的定是一位可怕的敌人。尽管我喜欢挑战，但实话实说：我们必须得变得更强。
             }
             Eridani:
             {
               1: 烈火燃烧着的灵魂已不复存在。硫磺火的文明一定很强大，才会如此崇拜这种元素。我们只是在她最弱的时候与她战斗。
-             2: Whatever caused this destruction has to be stopped... but we must get stronger to do so.
+             2: 造成这场破坏的根源必须被遏制……我们必须变得更强才能做到。
             }
           }
           Calamitas:
@@ -1227,7 +1227,7 @@
         {
           Nalhaun:
           {
-            1: We meet again, {0}. Again, I have another foe for you to defeat.
+            1: 我们又见面了，{0}。又一次，还有一个敌人需要你打败。
             2: I've given you the 'Ancient Crown.' With it, you can call forth a powerful foe, the Burnished King.
             3: If my hypothesis is correct, his defeat will resonate a clue towards the First Starbearer's location.
             4: 做好准备：这是一场苦战。
@@ -1917,7 +1917,7 @@
             {
               Dialogue:
               {
-                0: 幸会！我是爱丝福德妮——一位星海旅者，相对地，你就是我的星之传承者。
+                0: 幸会！我是爱丝福德妮——一位星海旅者，相对地，你就是我的承星者。
                 1: 我将赋予你力量，以便我们能共同清除世界上的威胁——如果事态良好的话，我们还能解决更严重的问题。
                 2: 不过对你来说还会有更多的好处。若你愿意，我可以帮你描述一下我还能做什么。我比较推荐你听一听！
               }
@@ -2017,7 +2017,7 @@
                 14: 我知道他有些孤僻，但是……我希望我们能多些交流。保重，珀尔修斯。不过，我总感觉他有事瞒着我？只是对我这样吗？
                 15: 无论如何，他说的很有道理。我确实感觉自己变强了——我的头发也在闪烁！这种力量对于我们前行来说再好不过啦。
                 16: 看上去我的天体新星叫做“虚无圣刃”。也许随着我们不断击败强大的敌人，还会有更多能力供我们使用。
-                17: 绑定天体新星钥匙之后，你就能通过空间光盘装备天体新星了，就像平时一样。
+                17: 绑定天体新星键之后，你就能通过空间光盘装备天体新星了，就像平时那样。
                 18: 你应该已经有一些棱镜核心了。凭借它们的力量，我猜你可以通过锻造来升级天体新星。
                 19: 这很重要，你需要天体新星能量来投射星体。天体新星能量会在战斗中累积，当你脱战时则会快速减少。
               }
@@ -2047,7 +2047,7 @@
                 13: 目前就这些了。我必须继续追踪初代星海旅者。祝你好运——我很快就会需要你的帮助。
                 14: 珀尔修斯不喜欢过多逗留。我觉得他说的没错……无论如何，这股力量真是难以置信，但我需要一点时间来熟悉它。
                 15: 我的天体新星叫做“虚无圣刃”。也许随着我们变强，我们能使用更多能力。
-                16: 绑定天体新星钥匙之后，你就能通过空间光盘装备天体新星了，就像平时一样。
+                16: 绑定天体新星键之后，你就能通过空间光盘装备天体新星了，就像平时一样。
                 17: 你可以通过棱镜核心来锻造并升级你的天体新星，我想。你可以直接把它们添加到菜单上。
                 18: 别忘了：你需要天体新星能量来投射星体。天体新星能量只会在战斗中积累。
                 19: 差不多就是这样……我知道这有点难以接受，但请善用你的天体新星。暂时就这么多了。
