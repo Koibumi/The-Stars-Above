@@ -3,6 +3,10 @@
   {
     StarsAbove:
     {
+      DeathReason:
+      {
+        SanguineDespair:  drained themselves of all life.
+      }
       CombatText:
       {
         Adornment: 
@@ -274,13 +278,13 @@
           FlashFreeze:
           {
             Name: "[c/C2BDFF:1阶] [c/FFEED1:“冰结闪光”]"
-            Description: 攻击造成暴击时会导致敌人爆炸，爆炸会造成攻击伤害的一半。此外，伤害性雪花会从目标处涌出，扩散伤害。此效果有4秒冷却时间。
+            Description: 攻击造成暴击时会导致敌人爆炸，爆炸会造成攻击伤害的一半。此外，伤害性雪花会从目标处涌出，扩散伤害。此效果有8秒冷却时间。
             Unlock: "[c/9D9D9D:已锁定：] 击败专家模式下的多彩魔女，彭忒希勒娅"
           }
           MysticForging:
           {
             Name: "[c/C2BDFF:1阶] [c/FFEED1:“秘术锻铸”]"
-            Description: 攻击击中敌人时会消耗5点魔力值并额外造成8%伤害。
+            Description: 将暴击率以1%：0.5%的比例转化为命中伤害（无视100%以上的暴击率）；除非有额外效果的触发，否则你无法再造成暴击。
             Unlock: "[c/9D9D9D:已锁定：] 击败多彩魔女，彭忒希勒娅"
           }
           InnerAlchemy:
@@ -304,7 +308,7 @@
           HealthyConfidence:
           {
             Name: "[c/9C4FFF:2阶] [c/FFD792:“健康秘诀”]"
-            Description: 额外获得150点最大生命值和强大的生命再生。生命值低于200点时防御减半。
+            Description: 所受伤害的25%伤害值会持续转化为生命值（每秒回复储存的生命值的30%）
             Unlock: "[c/9D9D9D:已锁定：] 击败血肉墙"
           }
           InfernalEnd:
@@ -334,13 +338,13 @@
           SpatialStratagem:
           {
             Name: "[c/9C4FFF:2阶] [c/FFD792:“空间谋略”]"
-            Description: 攻击造成暴击时会再次进行暴击判定。如果此次判定再次暴击，提升50%伤害并再次判定一次。
+            Description: 每过15秒，激活一个持续时间为2秒的窗口期；在窗口期受到伤害时会无视此次伤害并获得80%伤害加成，持续2秒。
             Unlock: "[c/9D9D9D:已锁定：] 击败来自星海苍穹的除了最终Boss以外的所有Boss"
           }
           WeaknessExploit:
           {
             Name: "[c/9C4FFF:2阶] [c/FFD792:“弱点特效”]"
-            Description: 攻击造成暴击时会以原伤害10%的真实伤害额外命中一次（不会击杀）。生命值低于20%或眩晕的敌人则会受到30%伤害。
+            Description: 暴击伤害降低20%。暴击伤害的10%会转化为真实伤害（不会造成击杀），用特定的减益攻击敌人时会额外造成10%真实伤害。
             Unlock: "[c/9D9D9D:已锁定：] 击败专家模式下的石巨人"
           }
           Aprismatism:
@@ -376,7 +380,7 @@
           BeyondInfinity:
           {
             Name: "[c/D82BFF:3阶] [c/FFC258:“超越无限”]"
-            Description: 当生命值达到500或更高时，所有造成的伤害都会翻倍。当生命值低于500点时降低10%造成的伤害，每100点生命值都会使数值提高10%。
+            Description: 当有Boss存活时，获得10%伤害加成。在未受到伤害20秒后，此加成增加至150%。受到伤害时会拾取伤害加成。
             Unlock: "[c/9D9D9D:已锁定：] 击败所有泰拉瑞亚Boss"
           }
           KeyOfChronology:
@@ -495,10 +499,12 @@
             82: 呃呃，我不确定这个精华能做出什么东西，只知道它是把召唤武器。你最好亲自试试，免得你搞砸了。
             83: 这个时钟是一把召唤武器-看起来它会召唤出一只可爱的时间盟友。如果你能适应她的战斗风格，她会给你提供很大的帮助。
             84: 唔……也许你能用它躲开来袭的攻击……？
-	          85: 看上去这把远程武器能轻易击溃成群的敌人。听起来它能派上用场——尤其是那个摆动的巨型棺木！
+            85: 看上去这把远程武器能轻易击溃成群的敌人。听起来它能派上用场——尤其是那个摆动的巨型棺木！
             86: 看上去这个精华兼备了魔法与近战——它已经开始噼啪作响了。试一试怎么样？
             85: 看上去这把远程武器能轻易击溃成群的敌人。听起来它能派上用场——尤其是那个摆动的巨型棺木！
             87: 这个精华怎么样？它将给予你一层附魔屏障，保护你免受伤害而无后顾之忧。
+	    88: Seems that this Essence came from that voodoo doll we found in the Underworld- a strange sight. Are you certain that using a weapon like this is worth the risk?
+            89: Who am I kidding- of course you're certain! You're MY Starbearer, after all! Just don't get TOO reckless, now. I don't think resurrection is something I can pull off on you.
 
           }
           Eridani:
@@ -589,9 +595,10 @@
             84: 这个怎么样；据我所知，我们和之前那些海盗……呃，算是“合作”制造出了这个精华，它造成远程伤害。接好了。
             85: 我不知道该怎么定义这个召唤类型的精华，所以我准备把它留给你练手。呃……祝你好运。
             86: 这把召唤武器能召唤出一只迷人的时间生物，它同时兼顾了攻击与防御。
-	          87: 这个精华对应了一把远程武器，但它似乎更适合在近距离发挥作用。别靠的太近了，但尽量发挥出它的特性。
+            87: 这个精华对应了一把远程武器，但它似乎更适合在近距离发挥作用。别靠的太近了，但尽量发挥出它的特性。
             88: 它似乎将一个近战精华和远程精华的串联起来了。就我看，它能制作出一把掌控雷霆之力的强大武器。
             89: 这个精华对应了一件辅助工具。它将赋予你一层牢固的屏障，并从你的敌人那里汲取生命能量……这将是一件得力的工具。
+	    90: This Essence seems to have resonated from that strange poppet we found in the Underworld. Beware its dangers- your affinity with resurrection is... tentative.
           }
           Perseus:
           {
