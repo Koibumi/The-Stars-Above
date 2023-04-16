@@ -254,7 +254,7 @@
           ButchersDozen:
           {
             Name: "[c/C2BDFF:1阶] [c/FFEED1:“屠夫之家”]"
-            Description: 在未脱战的情况下击杀12名敌人时，获得5%额外的攻击伤害和30%攻击速度。
+            Description: 在未脱战的情况下击杀12名敌人时，获得5%额外的攻击伤害和30%攻击速度，持续4秒（触发后会重置击杀计数器）。
             Unlock: "[c/9D9D9D:已锁定：] 击败复光之君，纳尔赫恩"
           }
           EvasionMastery:
@@ -296,7 +296,7 @@
           Hikari:
           {
             Name: "[c/C2BDFF:1阶] [c/FFEED1:“光”]"
-            Description: 获得与最大生命值除以20的结果成比例的攻击和防御加成。受到伤害时会造成'Null Radiance'，其会减半造成的伤害6秒。
+            Description: 获得与最大生命值除以20的结果成比例的攻击和防御加成。受到伤害时会减半造成的伤害6秒。
             Unlock: "[c/9D9D9D:已锁定：] 击败冰霜女王"
           }
           CelestialEvanesence:
@@ -308,7 +308,7 @@
           HealthyConfidence:
           {
             Name: "[c/9C4FFF:2阶] [c/FFD792:“健康秘诀”]"
-            Description: 所受伤害的25%伤害值会持续转化为生命值（每秒回复储存的生命值的30%）
+            Description: 所受伤害的15%伤害值会持续转化为生命值（每秒回复储存的生命值的10%）
             Unlock: "[c/9D9D9D:已锁定：] 击败血肉墙"
           }
           InfernalEnd:
@@ -338,13 +338,13 @@
           SpatialStratagem:
           {
             Name: "[c/9C4FFF:2阶] [c/FFD792:“空间谋略”]"
-            Description: 每过15秒，激活一个持续时间为2秒的窗口期；在窗口期受到伤害时会无视此次伤害并获得80%伤害加成，持续2秒。
+            Description: 受到伤害后会减半受到的伤害（包括触发该效果的伤害），持续2秒，并获得20%伤害，持续4秒。此效果有30秒冷却时间。（在冷却时间内受到伤害时会重置冷却时间）
             Unlock: "[c/9D9D9D:已锁定：] 击败来自星海苍穹的除了最终Boss以外的所有Boss"
           }
           WeaknessExploit:
           {
             Name: "[c/9C4FFF:2阶] [c/FFD792:“弱点特效”]"
-            Description: 暴击伤害降低20%。暴击伤害的10%会转化为真实伤害（不会造成击杀），用特定的减益攻击敌人时会额外造成10%真实伤害。
+            Description: 暴击伤害的10%会转化为真实伤害（不会造成击杀），用原版的减益攻击敌人时会额外造成15%真实伤害。
             Unlock: "[c/9D9D9D:已锁定：] 击败专家模式下的石巨人"
           }
           Aprismatism:
@@ -368,7 +368,7 @@
           CyclicHunter:
           {
             Name: "[c/C2BDFF:1阶] [c/FFEED1:“循环猎手”]"
-            Description: 在击败一名敌人时，获得8点魔力、10%伤害和50%移动速度加成半秒。此效果有2秒冷却时间。
+            Description: 在击败一名敌人时，获得8点魔力和10%伤害加成半秒。此效果有2秒冷却时间。
             Unlock: "[c/9D9D9D:已锁定：] 击败困难模式下的史莱姆王"
           }
           LivingDead:
@@ -380,7 +380,7 @@
           BeyondInfinity:
           {
             Name: "[c/D82BFF:3阶] [c/FFC258:“超越无限”]"
-            Description: 当有Boss存活时，获得10%伤害加成。在未受到伤害20秒后，此加成增加至150%。受到伤害时会拾取伤害加成。
+            Description: 当处于战斗状态时，每过两秒便会获得10%伤害加成，至多获得100%伤害加成。伤害加成会在你造成伤害时降低，且受到伤害时会重置伤害加成。
             Unlock: "[c/9D9D9D:已锁定：] 击败所有泰拉瑞亚Boss"
           }
           KeyOfChronology:
