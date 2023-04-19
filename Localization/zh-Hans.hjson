@@ -15,6 +15,13 @@
           Negative: Negative Chaos!
           
         }
+	ManiacalJustice:
+        {
+          Stack20: LV: 20
+          Stack50: LV: 50
+          Stack100: LV: MAX
+          NotEnoughStacks: LV: {0}/100
+        }
 
         Nalhaun:
         {
@@ -6483,6 +6490,26 @@
           伤害增加{1}%
           防御增加{2}
           “听见这链锯的轰鸣了吗？”
+          '''
+	LVBuff:
+          '''
+          {0}/100 LV
+          Currently active buffs:
+          '''
+        LVBuff20:
+          '''
+          Attack speed increased by 20%
+          Cooldown of Slaughtering Slash halved
+          '''
+        LVBuff50:
+          '''
+          Attack speed increased by 30%
+          Cooldown of Slaughtering Slash halved
+          Attacks inflict Karmic Retribution for 10 seconds
+          '''
+        LVBuff100:
+          '''
+          Able to unleash a Special Attack upon pressing the Weapon Action Key
           '''
         BloodOfTheDragon: 龙眼的眸光让你能驰骋天际, 增加伤害和移动速度
         BloopPetBuff: "'a'"
