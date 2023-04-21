@@ -512,6 +512,8 @@
             87: 这个精华怎么样？它将给予你一层附魔屏障，保护你免受伤害而无后顾之忧。
 	    88: Seems that this Essence came from that voodoo doll we found in the Underworld- a strange sight. Are you certain that using a weapon like this is worth the risk?
             89: Who am I kidding- of course you're certain! You're MY Starbearer, after all! Just don't get TOO reckless, now. I don't think resurrection is something I can pull off on you.
+	    90: This Essence is aspected to this world's star- your sun! Needless to say, the power of the sun would be quite the boon- let's see this thing in action!
+            91: Hmm, I'd advise healthy amounts of caution with this Essence- it's a Melee essence with high potential, but it looks like you're leaving your defenses open for it.
 
           }
           Eridani:
@@ -606,6 +608,8 @@
             88: 它似乎将一个近战精华和远程精华的串联起来了。就我看，它能制作出一把掌控雷霆之力的强大武器。
             89: 这个精华对应了一件辅助工具。它将赋予你一层牢固的屏障，并从你的敌人那里汲取生命能量……这将是一件得力的工具。
 	    90: This Essence seems to have resonated from that strange poppet we found in the Underworld. Beware its dangers- your affinity with resurrection is... tentative.
+	    91: An Essence attuned to the power of our Sun- and it is quite radiant, indeed. Let's make good use of it.
+            92: This Essence exudes an unhealthy amount of madness- it's a Melee weapon that trades defensive prowess for offensive might. Do be careful.
           }
           Perseus:
           {
@@ -827,24 +831,24 @@
           {
             Asphodene:
             {
-              1: 这不是好事……天界柱出现了。他们预示着末日降临…月亮领主。
-              2: 不要失去希望。我们可以战胜它。只是要打败的另一个敌人，对吗？
-              3: 最起码，天体序列有了另一项能力。它一定有用。
-              4: 没时间耽误了。了结这些吧。
+              1: These Celestial Pillars, they can't be good news- we really can't catch a break.
+              2: Don't lose hope, though... we can beat this. Just another foe to defeat, right? Haha...
+              3: Before you go, there's something else I need to tell you. I can sense something else other than the Pillars.
+              4: I can't quite place it, but I have the feeling like you should take advantage of nighttime soon.
             }
             Eridani:
             {
-              1: 我就知道…天界柱降临了。这可不是好兆头。
-              2: 在我们目前的情况下，我认为你是战胜月亮领主的天选之人。
-              3: 有天体序列的另一项升级，希望有用。
-              4: 没时间浪费了。开始吧。
+              1: I knew it.. something wasn't right about that Cultist. These Celestial Pillars do not inspire confidence.
+              2: With our current circumstances, I think you're the only one with a good enough shot at besting this threat.
+              3: One more thing: I can sense something other than the Pillars approaching. It is entirely different in nature.
+              4: This is only a hunch, but I would advise you to proceed with any tasks that require the night soon.
             }
           }
           MoonLord:
           {
             Asphodene:
             {
-              1: 你做到了！月亮领主…被征服了！我就知道你行的。
+              1: 你做到了！月亮领主被征服了！我就知道你行的。
               2: 击败月亮领主强化了你的天体序列。当之无愧的奖励。
               3: 我们一起走过了漫长的道路。你变得比我想象的还要强大。然而，我感觉到它还没有结束。
               4: 天空的光芒变得无比刺眼。肯定出事了……
@@ -854,7 +858,7 @@
               1: 月亮领主被击败了…完美的胜利。
               2: 击败它赋予了天体序列更强的力量。
               3: 恐怕完美的旅途还未结束。我们必须继续前行。实际上……
-              4: 光线变得刺眼。肯定有问题……
+              4: 光线变得刺眼。肯定有问题。
             }
           }
           WarriorOfLight:
@@ -1257,14 +1261,14 @@
           {
             1: We meet again, {0}. I need your help.
             2: This is the 'Twincrux Pendant.' When used, it will call forth powerful warring demons.
-            3: There may be an important step towards confronting the First Starbearer and stopping his rampage during this encounter.
+            3: This foe was once bested by the First Starbearer. My hope is that by studying your conflict with this simulacrum, we may yet find clues to his location.
             4: 做好准备。
           }
           Warrior:
           {
-            1: 你和我一样可以看出，情况已经变得很糟糕，{0}。
-            2: 源初承星者的目光已经转向至你，他的力量已经将世界笼罩在垄断一切的光明之中。
-            3: 我给予了你“先祖之愿”。这能引诱他出来。一旦发生，它将成为你对抗他决心的力量。
+            1: 你和我一样可以看出，情况已经变得很糟糕，{0}。The Celestial Pillars has drawn the ire of our greatest foe.
+            2: The First Starbearer's gaze has been turned to this realm, and his power has blanketed the world in overwhelming Light...
+            3: I have given you an artifact fashioned from the Essences of your past battles. It will serve as a way to draw him out.
             4: 拜托你，必须赢得这场战斗。这是无法估量的一场赌博。
           }
         }
