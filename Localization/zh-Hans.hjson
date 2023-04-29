@@ -831,17 +831,17 @@
           {
             Asphodene:
             {
-              1: These Celestial Pillars, they can't be good news- we really can't catch a break.
-              2: Don't lose hope, though... we can beat this. Just another foe to defeat, right? Haha...
-              3: Before you go, there's something else I need to tell you. I can sense something else other than the Pillars.
-              4: I can't quite place it, but I have the feeling like you should take advantage of nighttime soon.
+              1: 看看这些天界柱，这可不是什么好消息——我们还不能休息。
+              2: 尽管如此，不要失去希望……我们会战胜它的。不过是另一个手下败将，对吧？哈哈……
+              3: 在你动身之前，我还有一件事要说。我感受到那些天界柱背后存在着另一股力量。
+              4: 这感觉难以言状，但我有种预感，你最好充分利用仅存的夜晚。
             }
             Eridani:
             {
-              1: I knew it.. something wasn't right about that Cultist. These Celestial Pillars do not inspire confidence.
-              2: With our current circumstances, I think you're the only one with a good enough shot at besting this threat.
-              3: One more thing: I can sense something other than the Pillars approaching. It is entirely different in nature.
-              4: This is only a hunch, but I would advise you to proceed with any tasks that require the night soon.
+              1: 我就知道……那个邪教徒有点不对劲。这些天界柱可不会激起谁的斗志。
+              2: 结合我们最近的境况，我想你是妥善处理这个麻烦的不二人选。
+              3: 还有一件事：我感受到天界柱背后的另一股力量正在接近。它们分属两种截然不同的力量体系。
+              4: 尽管这只是我的直觉，但我还是强烈建议你尽快完成那些需要在夜晚完成的工作。
             }
           }
           MoonLord:
@@ -919,17 +919,17 @@
           {
             Asphodene:
             {
-              1: Now that was a strange fight... I don't even think those twins even realized we were there!
-              2: They weren't human, but probably a sort of demonkin. I felt some Starfarer trace on them- perhaps the First Starbearer defeated them in the past.
-              3: I don't know why Perseus told US to fight them, or even how we were able to. Unless... maybe Perseus found a way to turn Essences into their past selves? Hmm...
-              4: Our battle seems to have left a strange remnant object- I'll leave it in your care. You should probably take care of it.
+              1: 真是场奇怪的战斗……我想它们根本没意识到我们在这儿！
+              2: 它们不是人类，更像是某种恶魔。我从它们身上感受到一些星海旅者的气息——也许它们在过去就被原初之星海旅者击败了。
+              3: 我不知道珀尔修斯为何要我们与它们战斗，我甚至搞不明白我们为何能与它们战斗。除非……也许珀尔修斯找到了将精华转变为它们曾经本我的方法。唔……
+              4: 这场战斗留下了一个可疑的遗留物——交给你保管了。你最好妥善保管它。
             }
             Eridani:
             {
-              1: Even though we're the ones who bested them, those demon twins barely even gave us a glance.
-              2: From the remnant mana on them, those twins were most likely laid low by the First Starbearer ages ago.
-              3: As for why Perseus told us to fight them... I don't know. I'm not even sure how we were able to fight them- Perhaps we fought an Essence given agency?
-              4: There's this strange object left over after the battle. I would take good care of it, if I were you. I believe it will be useful later.
+              1: 尽管我们击败了它们，这对恶魔双子几乎看都没看我们一眼。
+              2: 从它们身上残存的魔力气息来看，它们许多年前就已经被原初之星海旅者击败了。
+              3: 至于为什么珀尔修斯要我们与之战斗……我也不清楚。我甚至搞不明白我们为何能与它们战斗。也许我们只是在对抗一对由精华驱动的傀儡？
+              4: 这场战斗留下了一个可疑的东西。如果我是你的话，我一定会妥善保管它。我相信它未来会派上用场的。
             }
           }
           Nalhaun:
@@ -1246,9 +1246,9 @@
           Nalhaun:
           {
             1: 我们又见面了，{0}。又一次，还有一个敌人需要你打败。
-            2: I've given you the 'Ancient Crown.' With it, you can call forth a powerful foe, the Burnished King.
-            3: If my hypothesis is correct, his defeat will resonate a clue towards the First Starbearer's location.
-            4: 做好准备：这是一场苦战。
+            2: 这是“远古王冠”。它将召唤一位强大的敌人，复光之君。
+            3: 如果我的假设正确，它的死亡将揭示一条有关最初的承星者位置的线索。
+            4: 做好准备：这是一场苦战
           }
           Penth:
           {
@@ -1259,7 +1259,7 @@
           }
           Dioskouroi:
           {
-            1: We meet again, {0}. I need your help.
+            1: 我们又见面了，{0}。我需要你的援助。
             2: This is the 'Twincrux Pendant.' When used, it will call forth powerful warring demons.
             3: This foe was once bested by the First Starbearer. My hope is that by studying your conflict with this simulacrum, we may yet find clues to his location.
             4: 做好准备。
