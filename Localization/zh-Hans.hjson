@@ -508,12 +508,11 @@
             84: 唔……也许你能用它躲开来袭的攻击……？
             85: 看上去这把远程武器能轻易击溃成群的敌人。听起来它能派上用场——尤其是那个摆动的巨型棺木！
             86: 看上去这个精华兼备了魔法与近战——它已经开始噼啪作响了。试一试怎么样？
-            85: 看上去这把远程武器能轻易击溃成群的敌人。听起来它能派上用场——尤其是那个摆动的巨型棺木！
             87: 这个精华怎么样？它将给予你一层附魔屏障，保护你免受伤害而无后顾之忧。
-	    88: Seems that this Essence came from that voodoo doll we found in the Underworld- a strange sight. Are you certain that using a weapon like this is worth the risk?
-            89: Who am I kidding- of course you're certain! You're MY Starbearer, after all! Just don't get TOO reckless, now. I don't think resurrection is something I can pull off on you.
-	    90: This Essence is aspected to this world's star- your sun! Needless to say, the power of the sun would be quite the boon- let's see this thing in action!
-            91: Hmm, I'd advise healthy amounts of caution with this Essence- it's a Melee essence with high potential, but it looks like you're leaving your defenses open for it.
+	    88: 这个精华似乎来自我们在地狱找到的巫毒娃娃——它看上去很奇怪。你确定这样一把武器值得我们冒险吗？
+            89: 我会跟谁开玩笑呢——当然是你了！毕竟你可是我的承星者！现在，别太————大意了。我可不认为我能成功复活你。
+	    90: 这个精华源自这个世界的恒星——太阳！不必说，这股力量确实能派上大用——让我们在战斗中见分晓吧！
+            91: 唔，你最好小心使用这个精华——这是个潜力十足的近战精华，但你似乎要为此牺牲你的防御。
 
           }
           Eridani:
@@ -607,9 +606,9 @@
             87: 这个精华对应了一把远程武器，但它似乎更适合在近距离发挥作用。别靠的太近了，但尽量发挥出它的特性。
             88: 它似乎将一个近战精华和远程精华的串联起来了。就我看，它能制作出一把掌控雷霆之力的强大武器。
             89: 这个精华对应了一件辅助工具。它将赋予你一层牢固的屏障，并从你的敌人那里汲取生命能量……这将是一件得力的工具。
-	    90: This Essence seems to have resonated from that strange poppet we found in the Underworld. Beware its dangers- your affinity with resurrection is... tentative.
-	    91: An Essence attuned to the power of our Sun- and it is quite radiant, indeed. Let's make good use of it.
-            92: This Essence exudes an unhealthy amount of madness- it's a Melee weapon that trades defensive prowess for offensive might. Do be careful.
+	    90: 这个精华似乎和我们在地狱找到的那个古怪的玩偶产生了共鸣。当心危险——你会暂时爱上……复活的感觉的。
+	    91: 一个调和了日之力的精华——它正在熠熠生辉。让我们好好利用它。
+            92: 这个精华弥散出一股病态的疯狂气息——这个近战精华以防御换取进攻能力。务必小心。
           }
           Perseus:
           {
@@ -653,7 +652,7 @@
               1: 关于它看起来多可怕，克苏鲁之眼看起来不是多糟糕，不是吗？
               2: 它看上去了褪去了它的外皮并露出了相当多的利齿。
               3: 我不懂更多，它可能是在证明一些东西。奇怪的家伙。
-              4: 其他消息…星体序列的一项能力现在可用了。好好利用它。
+              4: 其他消息…天体序列的一项能力现在可用了。好好利用它。
             }
           }
           CorruptionBoss:
@@ -2216,7 +2215,7 @@
               {
                 0: 是我眼花了吗？一个旅行者和一只……幽灵？她们从外太空来？
 								1: 你还好意思说！如果你没意识到，你正在发出耀眼的蓝光！此外，我对幽灵这个称呼有些反感。
-								2: “抱兼欠，我无意 挑起事端——你们从来 没遇到过Lumenkin，对吗？和你们 说话的 人叫做……呃……Yojimbo。”
+								2: “抱兼欠，我无意 挑起事端——你们从来 没遇到过流光眷族，对吗？和你们 说话的 人叫做……呃……Yojimbo。”
 								3: 抛开 你的魔法伙伴不言，我想 你来自附近的某个地方……看来Ardor尚未席卷整片区域。
 								4:  “好吧，这都 无关紧要。这里的 合同已经是一件苦差事了，如果你打算 挡道，可能会给我的 工作带来更多的 麻烦。”
 								5: 不，我们无意和你为敌。实际上，如果你能提供任何形式的帮助，我们很乐意接受它。
