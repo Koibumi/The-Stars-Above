@@ -6,6 +6,7 @@
       DeathReason:
       {
         SanguineDespair:  drained themselves of all life.
+	SupremeAuthority: returned to the void.
       }
       CombatText:
       {
@@ -6493,6 +6494,10 @@
           伤害增加{1}%
           防御增加{2}
           “听见这链锯的轰鸣了吗？”
+          '''
+        DarkAuraBuff:
+          '''
+          {0} sacrifice(s) have been consumed
           '''
 	LVBuff:
           '''
