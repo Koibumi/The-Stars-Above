@@ -6,6 +6,11 @@
       DeathReason:
       {
         SanguineDespair:  drained themselves of all life.
+        SupremeAuthority: returned to the void.
+      }
+      Boss:
+      {
+        WarriorOfLight: The Warrior of Light descends!
       }
       CombatText:
       {
@@ -15,7 +20,13 @@
           Negative: Negative Chaos!
           
         }
-
+        ManiacalJustice:
+        {
+          Stack20: LV: 20
+          Stack50: LV: 50
+          Stack100: LV: MAX
+          NotEnoughStacks: LV: {0}/100
+        }
         Nalhaun:
         {
           ManifestBlade: The Burnished King channels energy into his blade, leaving his defenses drastically lowered!
@@ -24,6 +35,10 @@
         Dioskouroi:
         {
           Clash: The Dioskouroi clash, equalizing their HP!
+        }
+        Tsukiyomi:
+        {
+          FinalPhase: The Starfarer before you unleashes her true might, empowering her attacks but leaving her defenses open!
         }
         KissOfDeath:
         {
@@ -503,9 +518,11 @@
             86: 看上去这个精华兼备了魔法与近战——它已经开始噼啪作响了。试一试怎么样？
             85: 看上去这把远程武器能轻易击溃成群的敌人。听起来它能派上用场——尤其是那个摆动的巨型棺木！
             87: 这个精华怎么样？它将给予你一层附魔屏障，保护你免受伤害而无后顾之忧。
-	    88: Seems that this Essence came from that voodoo doll we found in the Underworld- a strange sight. Are you certain that using a weapon like this is worth the risk?
+	          88: Seems that this Essence came from that voodoo doll we found in the Underworld- a strange sight. Are you certain that using a weapon like this is worth the risk?
             89: Who am I kidding- of course you're certain! You're MY Starbearer, after all! Just don't get TOO reckless, now. I don't think resurrection is something I can pull off on you.
-
+            90: This Essence is aspected to this world's star- your sun! Needless to say, the power of the sun would be quite the boon- let's see this thing in action!
+            91: Hmm, I'd advise healthy amounts of caution with this Essence- it's a Melee essence with high potential, but it looks like you're leaving your defenses open for it.
+            92: Looks to me like this Magic Essence has some powerful potential, but I'm not quite sure what it requires in turn... Perhaps you should give it a look.
           }
           Eridani:
           {
@@ -599,6 +616,9 @@
             88: 它似乎将一个近战精华和远程精华的串联起来了。就我看，它能制作出一把掌控雷霆之力的强大武器。
             89: 这个精华对应了一件辅助工具。它将赋予你一层牢固的屏障，并从你的敌人那里汲取生命能量……这将是一件得力的工具。
 	    90: This Essence seems to have resonated from that strange poppet we found in the Underworld. Beware its dangers- your affinity with resurrection is... tentative.
+      91: An Essence attuned to the power of our Sun- and it is quite radiant, indeed. Let's make good use of it.
+            92: This Essence exudes an unhealthy amount of madness- it's a Melee weapon that trades defensive prowess for offensive might. Do be careful.
+            93: A Magic-type essence. It seems to harbor incredible power, but it also seems to require sacrifices in return...
           }
           Perseus:
           {
@@ -839,15 +859,15 @@
             {
               1: 你做到了！月亮领主…被征服了！我就知道你行的。
               2: 击败月亮领主强化了你的天体序列。当之无愧的奖励。
-              3: 我们一起走过了漫长的道路。你变得比我想象的还要强大。然而，我感觉到它还没有结束。
-              4: 天空的光芒变得无比刺眼。肯定出事了……
+              3: We've come a long way... You have grown stronger than I've ever imagined!
+              4: We deserve a well-earned break. Somehow, I feel like our troubles aren't quite over yet...
             }
             Eridani:
             {
               1: 月亮领主被击败了…完美的胜利。
               2: 击败它赋予了天体序列更强的力量。
               3: 恐怕完美的旅途还未结束。我们必须继续前行。实际上……
-              4: 光线变得刺眼。肯定有问题……
+              4: I have a sneaking suspicion that things aren't going to stay peaceful for long. Let's stay vigilant.
             }
           }
           WarriorOfLight:
@@ -855,7 +875,7 @@
             Asphodene:
             {
               1: 我们看错了……光之战士以为他在拯救宇宙，但这确实是最初的星海旅者的谎言…多么残酷。
-              2: 光之战士。他设法逃跑了，但……黑夜终于回到了这个世界！
+              2: 总之……光之战士。他设法逃跑了，但……黑夜终于回到了这个世界！
               3: 我们终于有了拼图的最后一块。最初的星海旅者露了一手，这意味着我们有机会了。
               4: 天体序列还很强—意味着我们需要在接下来的冲突使用它，我相信是这样。
               5: 一旦你收集了所有的追忆之符，在你准备好的时候使用它。它将把最初的星海旅者直接带到我们身边。
@@ -1253,12 +1273,35 @@
             3: There may be an important step towards confronting the First Starbearer and stopping his rampage during this encounter.
             4: 做好准备。
           }
-          Warrior:
+          WarriorAsphodene:
           {
-            1: 你和我一样可以看出，情况已经变得很糟糕，{0}。
-            2: 源初承星者的目光已经转向至你，他的力量已经将世界笼罩在垄断一切的光明之中。
-            3: 我给予了你“先祖之愿”。这能引诱他出来。一旦发生，它将成为你对抗他决心的力量。
-            4: 拜托你，必须赢得这场战斗。这是无法估量的一场赌博。
+            1: Something's really wrong with the sky... What could be going on...?
+            2: The answer you seek isn't the answer you are hoping for.
+            3: Wh-
+            4: Let me finish, Asphodene- Time is of the essence. The First Starbearer has descended on this world.
+            5: Are you kidding me? After all that searching we did, he just waltzes up to us?
+            6: He must have noticed your defeat of the Moon Lord- an eldritch beast such as it does not fall lightly.
+            7: Yeah, we could tell. So... I assume you have a plan, or something?
+            8: From what I can derive, there's only a few more days until his grip over this world reaches its peak.
+            9: If you have resources that require the night to acquire, I implore you acquire them soon.
+            10: I've given you an artifact from his homeworld; while I know not its purpose, I believe it will hasten his arrival.
+            11: Use it only if you are prepared. The stakes have never been higher.
+            12: ...
+          }
+          WarriorEridani:
+          {
+            1: You can see it too, right? The sky is abnormally bright.
+            2: The answer you seek isn't the answer you are hoping for.
+            3: Perseus. I-
+            4: Let me finish, Eridani- Time is of the essence. The First Starbearer has descended on this world.
+            5: We were searching for him for so long- why has he come to us instead?
+            6: He must have noticed your defeat of the Moon Lord- an eldritch beast such as it does not fall lightly.
+            7: That makes sense, albeit in a way that makes us seem at fault... Anyways, do you have some sort of plan?
+            8: From what I can derive, there's only a few more days until his grip over this world reaches its peak.
+            9: If you have resources that require the night to acquire, I implore you acquire them soon.
+            10: I've given you an artifact from his homeworld; while I know not its purpose, I believe it will hasten his arrival.
+            11: Use it only if you are prepared. The stakes have never been higher.
+            12: ...
           }
         }
         RegularIdleDialogue:
@@ -2998,6 +3041,11 @@
           Label: Disable damage penalty for Aspected Damage modification
           Tooltip: 10% damage penalty when Aspected Damage modification is enabled is removed.
         }
+        DisableBossAggro:
+        {
+          Label: Disable Boss Aggro Marker
+          Tooltip: Disables the marker that appears over a player's head when a boss targets them.
+        }
         DisableCalamityWeaponBuffs:
         {
           Label: Disable global damage modifiers for mod compatibility
@@ -3040,6 +3088,11 @@
         ArrayAbility: 天体阵列获得了一项新能力！
         AstralLocked: 武器无法对你的相位做出反应，这使你无法使用该武器。你只能和爱丝福德妮一起使用星体武器
         UmbralLocked: 武器无法对你的相位做出反应，这使你无法使用该武器。你只能和埃里达妮一起使用本影武器
+        HarshLight: The sky becomes unbearably bright...
+        EverlastingLight: The sky is suffused with overwhelming Light, preventing night from falling...
+        EverlastingLightEnd: The Light flooding this world has been cleansed!
+        SpeedUpLight: The everlasting light is catalyzed, preventing night from falling...
+        TsukiyomiBossChecklist: The Boss Checklist updates to reveal a hidden foe!
       }
       DamageClass:
       {
@@ -3541,6 +3594,7 @@
           通常状况下你无法启用阶数总和超过五阶的技能
           此外，所有星相武器的伤害类型可以以减少10%的伤害为代价来修改为其他的伤害类型
           [c/F1AFFF:在达成部分条件后，你可以解锁天体新星技能，并在] [c/EC356F:星海旅者菜单][c/F1AFFF:中配置它们]
+          [c/F1AFFF:Once it have been unlocked, Celestial Cartography can be accessed with the] [c/EC356F:Starfarer Menu]
           你可以在[c/9FEE5E:档案馆]之中来重新获取丢失的物品或者阅读曾经的对话
           你所选择的[c/F1AF42:星海旅者]将决定你在之后的旅程之中能使用本影[i:StarsAbove/Umbral]还是星体[i:StarsAbove/Astral]能力
           [c/C74848:官方内置汉化由][c/912E37:灾厄维基汉化组][c/C74848:提供，感谢支持。]
@@ -6483,6 +6537,30 @@
           伤害增加{1}%
           防御增加{2}
           “听见这链锯的轰鸣了吗？”
+          '''
+          DarkAuraBuff:
+          '''
+          {0} sacrifice(s) have been consumed
+          '''
+        LVBuff:
+          '''
+          {0}/100 LV
+          Currently active buffs:
+          '''
+        LVBuff20:
+          '''
+          Attack speed increased by 20%
+          Cooldown of Slaughtering Slash halved
+          '''
+        LVBuff50:
+          '''
+          Attack speed increased by 30%
+          Cooldown of Slaughtering Slash halved
+          Attacks inflict Karmic Retribution for 10 seconds
+          '''
+        LVBuff100:
+          '''
+          Able to unleash a Special Attack upon pressing the Weapon Action Key
           '''
         BloodOfTheDragon: 龙眼的眸光让你能驰骋天际, 增加伤害和移动速度
         BloopPetBuff: "'a'"
