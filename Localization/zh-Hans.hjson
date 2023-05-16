@@ -8,6 +8,10 @@
         SanguineDespair:  drained themselves of all life.
 	SupremeAuthority: returned to the void.
       }
+      Boss:
+      {
+        WarriorOfLight: The Warrior of Light descends!
+      }
       CombatText:
       {
         Adornment: 
@@ -292,7 +296,7 @@
           MysticForging:
           {
             Name: "[c/C2BDFF:1阶] [c/FFEED1:“秘术锻铸”]"
-            Description: 将暴击率以1%：0.5%的比例转化为命中伤害（无视100%以上的暴击率）；除非有额外效果的触发，否则你无法再造成暴击。
+            Description: 将暴击率以1%：0.5%的比例转化为命中伤害（上限为100%）；除非有额外效果的触发，否则你无法再造成暴击。基于暴击率获得攻击速度加成，至多15%。
             Unlock: "[c/9D9D9D:已锁定：] 击败多彩魔女，彭忒希勒娅"
           }
           InnerAlchemy:
@@ -514,6 +518,7 @@
             89: 我会跟谁开玩笑呢——当然是你了！毕竟你可是我的承星者！现在，别太————大意了。我可不认为我能成功复活你。
 	    90: 这个精华源自这个世界的恒星——太阳！不必说，这股力量确实能派上大用——让我们在战斗中见分晓吧！
             91: 唔，你最好小心使用这个精华——这是个潜力十足的近战精华，但你似乎要为此牺牲你的防御。
+	    92: Looks to me like this Magic Essence has some powerful potential, but I'm not quite sure what it requires in turn... Perhaps you should give it a look.
 
           }
           Eridani:
@@ -610,6 +615,7 @@
 	    90: 这个精华似乎和我们在地狱找到的那个古怪的玩偶产生了共鸣。当心危险——你会暂时爱上……复活的感觉的。
 	    91: 一个调和了日之力的精华——它正在熠熠生辉。让我们好好利用它。
             92: 这个精华弥散出一股病态的疯狂气息——这个近战精华以防御换取进攻能力。务必小心。
+	    93: A Magic-type essence. It seems to harbor incredible power, but it also seems to require sacrifices in return...
           }
           Perseus:
           {
@@ -848,17 +854,17 @@
           {
             Asphodene:
             {
-              1: 你做到了！月亮领主被征服了！我就知道你行的。
+              1: 你做到了！月亮领主被征服了——我就知道你行的。
               2: 击败月亮领主强化了你的天体序列。当之无愧的奖励。
-              3: 我们一起走过了漫长的道路。你变得比我想象的还要强大。然而，我感觉到它还没有结束。
-              4: 天空的光芒变得无比刺眼。肯定出事了……
+              3: We've come a long way... You have grown stronger than I've ever imagined!
+              4: We deserve a well-earned break. Somehow, I feel like our troubles aren't quite over yet...
             }
             Eridani:
             {
               1: 月亮领主被击败了…完美的胜利。
               2: 击败它赋予了天体序列更强的力量。
               3: 恐怕完美的旅途还未结束。我们必须继续前行。实际上……
-              4: 光线变得刺眼。肯定有问题。
+              4: I have a sneaking suspicion that things aren't going to stay peaceful for long. Let's stay vigilant.
             }
           }
           WarriorOfLight:
@@ -866,7 +872,7 @@
             Asphodene:
             {
               1: 我们看错了……光之战士以为他在拯救宇宙，但这确实是最初的星海旅者的谎言…多么残酷。
-              2: 光之战士。他设法逃跑了，但……黑夜终于回到了这个世界！
+              2: Anyways, 光之战士。他设法逃跑了，但……黑夜终于回到了这个世界！
               3: 我们终于有了拼图的最后一块。最初的星海旅者露了一手，这意味着我们有机会了。
               4: 天体序列还很强—意味着我们需要在接下来的冲突使用它，我相信是这样。
               5: 一旦你收集了所有的追忆之符，在你准备好的时候使用它。它将把最初的星海旅者直接带到我们身边。
@@ -1264,13 +1270,35 @@
             3: This foe was once bested by the First Starbearer. My hope is that by studying your conflict with this simulacrum, we may yet find clues to his location.
             4: 做好准备。
           }
-          Warrior:
+          WarriorAsphodene:
           {
-            1: 你和我一样可以看出，情况已经变得很糟糕，{0}。The Celestial Pillars has drawn the ire of our greatest foe.
-            2: The First Starbearer's gaze has been turned to this realm, and his power has blanketed the world in overwhelming Light...
-            3: I have given you an artifact fashioned from the Essences of your past battles. It will serve as a way to draw him out.
-            4: 拜托你，必须赢得这场战斗。这是无法估量的一场赌博。
+            1: Something's really wrong with the sky... What could be going on...?
+            2: The answer you seek isn't the answer you are hoping for.
+            3: Wh-
+            4: Let me finish, Asphodene- Time is of the essence. The First Starbearer has descended on this world.
+            5: Are you kidding me? After all that searching we did, he just waltzes up to us?
+            6: He must have noticed your defeat of the Moon Lord- an eldritch beast such as it does not fall lightly.
+            7: Yeah, we could tell. So... I assume you have a plan, or something?
+            8: From what I can derive, there's only a few more days until his grip over this world reaches its peak.
+            9: If you have resources that require the night to acquire, I implore you acquire them soon.
+            10: I've given you an artifact from his homeworld; while I know not its purpose, I believe it will hasten his arrival.
+            11: Use it only if you are prepared. The stakes have never been higher.
+            12: ...
           }
+          WarriorEridani:
+          {
+            1: You can see it too, right? The sky is abnormally bright.
+            2: The answer you seek isn't the answer you are hoping for.
+            3: Perseus. I-
+            4: Let me finish, Eridani- Time is of the essence. The First Starbearer has descended on this world.
+            5: We were searching for him for so long- why has he come to us instead?
+            6: He must have noticed your defeat of the Moon Lord- an eldritch beast such as it does not fall lightly.
+            7: That makes sense, albeit in a way that makes us seem at fault... Anyways, do you have some sort of plan?
+            8: From what I can derive, there's only a few more days until his grip over this world reaches its peak.
+            9: If you have resources that require the night to acquire, I implore you acquire them soon.
+            10: I've given you an artifact from his homeworld; while I know not its purpose, I believe it will hasten his arrival.
+            11: Use it only if you are prepared. The stakes have never been higher.
+            12: ...
         }
         RegularIdleDialogue:
         {
@@ -3051,6 +3079,11 @@
         ArrayAbility: 天体阵列获得了一项新能力！
         AstralLocked: 武器无法对你的相位做出反应，这使你无法使用该武器。你只能和爱丝福德妮一起使用星体武器
         UmbralLocked: 武器无法对你的相位做出反应，这使你无法使用该武器。你只能和埃里达妮一起使用本影武器
+	HarshLight: The sky becomes unbearably bright...
+        EverlastingLight: The sky is suffused with overwhelming Light, preventing night from falling...
+        EverlastingLightEnd: The Light flooding this world has been cleansed!
+        SpeedUpLight: The everlasting light is catalyzed, preventing night from falling...
+        TsukiyomiBossChecklist: The Boss Checklist updates to reveal a hidden foe!
       }
       DamageClass:
       {
@@ -6953,4 +6986,3 @@
     }
   }
 }
-
