@@ -27,7 +27,6 @@
           Stack100: LV: MAX
           NotEnoughStacks: LV: {0}/100
         }
-
         Nalhaun:
         {
           ManifestBlade: The Burnished King channels energy into his blade, leaving his defenses drastically lowered!
@@ -36,6 +35,10 @@
         Dioskouroi:
         {
           Clash: The Dioskouroi clash, equalizing their HP!
+        }
+        Tsukiyomi:
+        {
+          FinalPhase: The Starfarer before you unleashes her true might, empowering her attacks but leaving her defenses open!
         }
         KissOfDeath:
         {
