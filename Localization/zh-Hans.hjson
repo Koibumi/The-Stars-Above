@@ -521,7 +521,7 @@
             89: 我会跟谁开玩笑呢——当然是你了！毕竟你可是我的承星者！现在，别太————大意了。我可不认为我能成功复活你。
 	    90: 这个精华源自这个世界的恒星——太阳！不必说，这股力量确实能派上大用——让我们在战斗中见分晓吧！
             91: 唔，你最好小心使用这个精华——这是个潜力十足的近战精华，但你似乎要为此牺牲你的防御。
-	    92: Looks to me like this Magic Essence has some powerful potential, but I'm not quite sure what it requires in turn... Perhaps you should give it a look.
+	    92: 依我看，这个精华潜力无穷，但我不确定它需要支付何等代价——也许你需要观望一下。
 
           }
           Eridani:
@@ -618,7 +618,7 @@
 	    90: 这个精华似乎和我们在地狱找到的那个古怪的玩偶产生了共鸣。当心危险——你会暂时爱上……复活的感觉的。
 	    91: 一个调和了日之力的精华——它正在熠熠生辉。让我们好好利用它。
             92: 这个精华弥散出一股病态的疯狂气息——这个近战精华以防御换取进攻能力。务必小心。
-	    93: A Magic-type essence. It seems to harbor incredible power, but it also seems to require sacrifices in return...
+	    93: 一个魔法精华。它看上去有威力无穷，但你需要为此支付相应的代价……
           }
           Perseus:
           {
@@ -859,15 +859,15 @@
             {
               1: 你做到了！月亮领主被征服了——我就知道你行的。
               2: 击败月亮领主强化了你的天体序列。当之无愧的奖励。
-              3: We've come a long way... You have grown stronger than I've ever imagined!
-              4: We deserve a well-earned break. Somehow, I feel like our troubles aren't quite over yet...
+              3: 我们共同走过了漫漫长路……你比我想象中更加强大了！
+              4: 我们本应好好休息一下。但……我预感我们的麻烦尚未结束……
             }
             Eridani:
             {
               1: 月亮领主被击败了…完美的胜利。
               2: 击败它赋予了天体序列更强的力量。
               3: 恐怕完美的旅途还未结束。我们必须继续前行。实际上……
-              4: I have a sneaking suspicion that things aren't going to stay peaceful for long. Let's stay vigilant.
+              4: 我有预感，一切不会就这么长久的平静下去。让我们时刻保持警惕。
             }
           }
           WarriorOfLight:
@@ -875,7 +875,7 @@
             Asphodene:
             {
               1: 我们看错了……光之战士以为他在拯救宇宙，但这确实是最初的星海旅者的谎言…多么残酷。
-              2: Anyways, 光之战士。他设法逃跑了，但……黑夜终于回到了这个世界！
+              2: 不管怎样，光之战士。他设法逃跑了，但……黑夜终于回到了这个世界！
               3: 我们终于有了拼图的最后一块。最初的星海旅者露了一手，这意味着我们有机会了。
               4: 天体序列还很强—意味着我们需要在接下来的冲突使用它，我相信是这样。
               5: 一旦你收集了所有的追忆之符，在你准备好的时候使用它。它将把最初的星海旅者直接带到我们身边。
