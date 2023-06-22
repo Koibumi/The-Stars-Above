@@ -520,7 +520,7 @@
 	    88: 这个精华似乎来自我们在地狱找到的巫毒娃娃——它看上去很奇怪。你确定这样一把武器值得我们冒险吗？
             89: 我会跟谁开玩笑呢——当然是你了！毕竟你可是我的承星者！现在，别太————大意了。我可不认为我能成功复活你。
 	    90: 这个精华源自这个世界的恒星——太阳！不必说，这股力量确实能派上大用——让我们在战斗中见分晓吧！
-            91: 唔，你最好小心使用这个精华——这是个潜力十足的近战精华，但你似乎要为此牺牲你的防御。
+            91: 唔，你最好小心使用这个精华——这是个潜力十足的近战精华，但你得为此舍弃你的防御。
 	    92: 依我看，这个精华潜力无穷，但我不确定它需要支付何等代价——也许你需要观望一下。
 
           }
@@ -1269,39 +1269,39 @@
           Dioskouroi:
           {
             1: 我们又见面了，{0}。我需要你的援助。
-            2: This is the 'Twincrux Pendant.' When used, it will call forth powerful warring demons.
-            3: This foe was once bested by the First Starbearer. My hope is that by studying your conflict with this simulacrum, we may yet find clues to his location.
+            2: 这是“双十字星吊坠”，它将唤醒一对强大的恶魔双子。
+            3: 它已是初代承星者的手下败将。但愿从你与这对克隆体的战斗中，我们能找到有关他行踪的蛛丝马迹。
             4: 做好准备。
           }
           WarriorAsphodene:
           {
-            1: Something's really wrong with the sky... What could be going on...?
-            2: The answer you seek isn't the answer you are hoping for.
-            3: Wh-
-            4: Let me finish, Asphodene- Time is of the essence. The First Starbearer has descended on this world.
-            5: Are you kidding me? After all that searching we did, he just waltzes up to us?
-            6: He must have noticed your defeat of the Moon Lord- an eldritch beast such as it does not fall lightly.
-            7: Yeah, we could tell. So... I assume you have a plan, or something?
-            8: From what I can derive, there's only a few more days until his grip over this world reaches its peak.
-            9: If you have resources that require the night to acquire, I implore you acquire them soon.
-            10: I've given you an artifact from his homeworld; while I know not its purpose, I believe it will hasten his arrival.
-            11: Use it only if you are prepared. The stakes have never been higher.
-            12: ...
+            1: 天色耀眼灼目……不知何者将至？
+            2: 你所探求之事并非如你所愿。
+            3: 唔——
+            4: 让我说完，爱丝福德妮——事不容缓。初代承星者已然降临这个世界。
+            5: 你在开什么玩笑？我们竭心竭力探寻他的行踪，他就这么光明正大地现身了？
+            6: 月球领主之殇必然引起了他的注意——这般强者不会轻易陨落。
+            7: 嗯，的确如此。既然这样……我想你一定已经有了对策。
+            8: 据我所知，不出数日，他对这个世界的控制程度就会到达顶峰。
+            9: 如果你有需要在夜间获取的资源，我强烈建议你尽快采取行动。
+            10: 我将给你一件来自他母星的遗物；尽管我对他的目的一无所知，但我确信这能提前他的到来。
+            11: 等你准备妥当后再使用它。我们此举已是孤注一掷。
+            12: ……
           }
           WarriorEridani:
           {
-            1: You can see it too, right? The sky is abnormally bright.
-            2: The answer you seek isn't the answer you are hoping for.
-            3: Perseus. I-
-            4: Let me finish, Eridani- Time is of the essence. The First Starbearer has descended on this world.
-            5: We were searching for him for so long- why has he come to us instead?
-            6: He must have noticed your defeat of the Moon Lord- an eldritch beast such as it does not fall lightly.
-            7: That makes sense, albeit in a way that makes us seem at fault... Anyways, do you have some sort of plan?
-            8: From what I can derive, there's only a few more days until his grip over this world reaches its peak.
-            9: If you have resources that require the night to acquire, I implore you acquire them soon.
-            10: I've given you an artifact from his homeworld; while I know not its purpose, I believe it will hasten his arrival.
-            11: Use it only if you are prepared. The stakes have never been higher.
-            12: ...
+            1: 你也能看出来，不是吗？天空异常耀眼灼目。
+            2: 你所探求之事并非如你所愿。
+            3: 珀尔修斯，我觉得——
+            4: 让我说完，爱丝福德妮——事不容缓。初代承星者已然降临这个世界。
+            5: 我们长久以来一直在探求他的下落——他为何要主动现身？
+            6: 月球领主之殇必然引起了他的注意——这般强者不会轻易陨落。
+            7: 言之有理，尽管这某种程度上是我们的责任……总之，你有什么对策吗？
+            8: 据我所知，不出数日，他对这个世界的控制程度就会到达顶峰。
+            9: 如果你有需要在夜间获取的资源，我强烈建议你尽快采取行动。
+            10: 我将给你一件来自他母星的遗物；尽管我对他的目的一无所知，但我确信这能提前他的到来。
+            11: 等你准备妥当后再使用它。我们此举已是孤注一掷。
+            12: ……
         }
         RegularIdleDialogue:
         {
@@ -1972,7 +1972,7 @@
               }
               Choices:
               {
-                1: 我想要详细的说明。
+                1: 愿洗耳恭听。
                 2: 不必了，谢谢。
                 3: X
               }
@@ -2014,7 +2014,7 @@
               }
               Choices:
               {
-                1: 我想要详细的说明。
+                1: 愿洗耳恭听。
                 2: 不必了，谢谢。
               }
             }
@@ -2112,8 +2112,8 @@
               Dialogue:
               {
                 0: 嗯，看来你已经准备好继续前行了？
-                1: 无论如何，我要把the Astrolabe交给你。当你访问天体新星菜单时，你会看到新解锁的选项。
-                2: 简而言之，Astrolabe可以让你探索星海（需要一些额外的步骤）。如果你对此感兴趣，就通过Astrolabe来拜访极北天文台吧。
+                1: 无论如何，我要把天体制图仪交给你。当你访问天体新星菜单时，你会看到新解锁的选项。
+                2: 简而言之，天体制图仪可以让你探索星海（需要一些额外的步骤）。如果你对此感兴趣，就通过天体制图仪来拜访极北天文台吧。
                 3: 暂时只有这些了。我随时恭候你的到来！哦，埃里也在那里等着你。
               }
               Choices:
@@ -2127,8 +2127,8 @@
               Dialogue:
               {
                 0: 看起来你变得更强了——并且更加迅速。虽然我原本很担心你的安危，但你现在已经足以驾驭这个了。
-                1: 这是Astrolabe。如果你访问天体新星菜单，你会发现原本锁定的选项已经可用了。
-                2: Astrolabe可以让你探索星海——当然，需要适当的设置。等你通过它抵达极北天文台时，我再向你作详细的解释。
+                1: 这是天体制图仪。如果你访问天体新星菜单，你会发现原本锁定的选项已经可用了。
+                2: 天体制图仪可以让你探索星海——当然，需要适当的设置。等你通过它抵达极北天文台时，我再向你作详细的解释。
                 3: 等你做好准备，随时可以来访。我在此恭候你的到来——爱丝福德妮也是。
               }
               Choices:
@@ -2152,9 +2152,9 @@
               }
               Choices:
               {
-                1: 我们要怎么解决这个问题？
+                1: 我们该如何解决这个问题？
 								2: 难道没有其它人着手解决这个问题吗？
-								3: emmm……我感觉一切没什么两样。
+								3: 唔……我感觉一切如常。
               }
             }
             14:
@@ -2163,13 +2163,13 @@
               {
                 0: 我想给你一个确切的回答……很抱歉我也不知道。
 								1: 这是个紧迫的问题，但是在做出任何潦草的决定之前，我们得变得更强。
-								2: 等你做出旅星符台，你就能通过通过Astrolabe探索宇宙了。
+								2: 等你做出旅星符台，你就能通过通过天体制图仪探索宇宙了。
 								3: 如果你需要，我可以给你讲一些基本流程。这说不上复杂，但你可能很快就会糊涂了。
               }
               Choices:
               {
                 1: 是的，请给我讲讲。
-								2: 事实上，我觉得我可以自行摸索。
+								2: 我觉得我可以自行摸索。
               }
             }
             15:
@@ -2179,13 +2179,13 @@
                 0: 唔，我们也这么想，但星系中的大多数人似乎都倾向于向中心迁移，以逃离被冻结的命运。
 								1: 星海旅者能够从周围的魔力中提取精华，但在我们游历过的几个世界中，我只是了解到这个星系的名字：命运。
 								2: 虽然这很重要，但是在采取任何行动之前，我们得变得更强才行。
-								3: 等你做出旅星符台，你就能通过通过Astrolabe探索宇宙了。
+								3: 等你做出旅星符台，你就能通过通过天体制图仪探索宇宙了。
 								4: 如果你需要，我可以向你介绍一些基本流程。这说不上复杂，但你可能很快就会糊涂了。
               }
               Choices:
               {
                 1: 是的，请给我讲讲。
-								2: 事实上，我觉得我可以自行摸索。
+								2: 我觉得我可以自行摸索。
               }
             }
             16:
@@ -2193,13 +2193,13 @@
               Dialogue:
               {
                 0: 你当然感觉不到——我不是刚说过有太阳给这里提供热量吗？捏猫猫的……
-								1: 不管怎样，等你做出旅星符台，你就能通过通过Astrolabe探索宇宙了。
+								1: 不管怎样，等你做出旅星符台，你就能通过通过天体制图仪探索宇宙了。
 								2: 如果你需要，我可以向你介绍一些基本流程。这说不上复杂，但你可能很快就会糊涂了。
               }
               Choices:
               {
                 1: 是的，请给我讲讲。
-								2: 事实上，我觉得我可以自行摸索。
+								2: 我觉得我可以自行摸索。
               }
             }
             17:
@@ -2209,7 +2209,7 @@
                 0: 好吧。首先，你需要制作一座“旅星符台”。
 								1: 在天文台内部有一座天神锚点，为了简化流程，你可以把它当做合成站来使用。它就坐落在一个由石柱环绕的基座上。
 								2: 你只需要从每种宝石中各取其一，并将它们简单结合，就能制作出旅星符台了。这也是流程中最麻烦的部分。
-								3: 现在，你只需要把旅星符台安置在家里，就能打开一道传送门。随后你就能通过天体星图探索星海了，我们称之为——寰宇之旅。
+								3: 现在，你只需要把旅星符台安置在家里，就能打开一道传送门。随后你就能通过天体制图仪探索星海了，我们称之为——寰宇之旅。
 								4: 你只需要选择一个目的地，就能直接传送到那儿——很新奇的旅行方式，对吧？
 								5: 当然，这种方式也存在一些弊端。我们通过非常规的手段把你传送到目的地（而不是用宇宙飞船），所以你绝大部分的机动能力都没法使用了。
 								6: 唔，我推荐你在寰宇之旅途中带上钩爪之类的东西。相信我总没错的。
@@ -2737,8 +2737,8 @@
           }
           VoyageHover:
           {
-            Asphodene: 我们可以在此访问天体星图：一张借助Astrolabe之力即时投射星空的魔法地图。注意，你仍需处在旅星符台附近才能前往极北天文台之外的区域。
-            Eridani: 这里就是Astrolabe起作用的地方：借助它的力量，你可以访问天体星图，一张星空地图。你仍需处在旅星符台附近才能前往极北天文台之外的区域。
+            Asphodene: 我们可以在此访问天体制图仪：一张借助天体制图仪之力即时投射星空的魔法地图。注意，你仍需处在旅星符台附近才能前往极北天文台之外的区域。
+            Eridani: 这里就是天体制图仪起作用的地方：借助它的力量，你可以访问天体制图仪，一张星空地图。你仍需处在旅星符台附近才能前往极北天文台之外的区域。
           }
           Locked:
           {
@@ -2977,8 +2977,8 @@
         }
         StarfarerPromptCooldown:
         {
-          Label: Starfarer Prompt Cooldown
-          Tooltip: The time between Starfarer Prompts in minutes. If a trigger for a prompt occurs during this time, it is ignored. Does not apply to unique prompts (Bosses, etc.)
+          Label: 星海旅者对白冷却
+          Tooltip: 星海旅者对白出现间隔。若在此期间另有对白出现，不重置计时器。对特殊对白无效（Boss战等）。
         }
         DialogueScrollValue:
         {
@@ -3007,8 +3007,8 @@
         }
         CommentaryTimer:
         {
-          Label: Starfarer Prompt positiion
-          Tooltip: Position is measured from the bottom right of the screen!
+          Label: 星海旅者对话框位置
+          Tooltip: 从屏幕右下方开始计算！
         }
         EnableStarfarerVoices:
         {
@@ -3017,13 +3017,13 @@
         }
         EnableMusicOverride:
         {
-          Label: Weapon music overrides all other music
-          Tooltip: When enabled, weapons that change the game's music will have priority over nearly everything else.
+          Label: 武器音乐覆盖其它音乐
+          Tooltip: 开启时，武器所带音乐播放将优于其它音乐。
         }
         EnablePlayerWorldLock:
         {
-          Label: Enable Player Progress World Lock
-          Tooltip: Enables character progression being tied to the first world they joined.
+          Label: 开启角色—世界进程锁
+          Tooltip: 将角色进度绑定在其加入的第一个世界。
         }
         EnableAprilFools:
         {
@@ -3032,8 +3032,8 @@
         }
         DisableWeaponCutIn:
         {
-          Label: Disable Weapon Cut-In Effect
-          Tooltip: Disable screen-wide animations that play when using certain weapons.
+          Label: 关闭武器切入效果
+          Tooltip: 关闭使用某些武器时的动画播放效果。
         }
         DisableTypePenalty:
         {
@@ -3067,13 +3067,12 @@
         }
         SubworldCompatibility:
         {
-          Label: Disable Multiplayer Compatibility-Fix for Cosmic Voyages
-          Tooltip: Allows for users in Multiplayer to undertake Cosmic Voyages- this is known to cause issues. When this is toggled off, causes items to drop instead.
-        }
+          Label: 关闭寰宇之旅多人修正
+          Tooltip: 允许多人游戏中进行寰宇之旅——已知这将导致一系列问题。关闭后，玩家在进行寰宇之旅时将直接获得战利品。
         CombatTimer:
         {
-          Label: Combat Timer
-          Tooltip: When striking a foe or getting struck, this is the time in seconds you are 'in combat.' Affects Stellar Nova gauge and using the Starfarer Menu.
+          Label: 脱战计时器
+          Tooltip: 当击中一名敌人或受击时，此即你处于“战斗状态”的时间。该状态影响天体新星和空间光盘菜单判定。
         }
       }
       Common:
@@ -3082,11 +3081,11 @@
         ArrayAbility: 天体阵列获得了一项新能力！
         AstralLocked: 武器无法对你的相位做出反应，这使你无法使用该武器。你只能和爱丝福德妮一起使用星体武器
         UmbralLocked: 武器无法对你的相位做出反应，这使你无法使用该武器。你只能和埃里达妮一起使用本影武器
-	HarshLight: The sky becomes unbearably bright...
-        EverlastingLight: The sky is suffused with overwhelming Light, preventing night from falling...
-        EverlastingLightEnd: The Light flooding this world has been cleansed!
-        SpeedUpLight: The everlasting light is catalyzed, preventing night from falling...
-        TsukiyomiBossChecklist: The Boss Checklist updates to reveal a hidden foe!
+	HarshLight: 天空变得灼目耀眼……
+        EverlastingLight: 无尽光芒笼罩天空，白昼永无止境……
+        EverlastingLightEnd: 笼罩世界之光芒已然褪去！
+        SpeedUpLight: 无尽光芒更加耀眼，白昼永无止境……
+        TsukiyomiBossChecklist: Boss清单中出现了一名隐藏的敌人！
       }
       DamageClass:
       {
@@ -3097,9 +3096,9 @@
         Arbitration: 仲裁
         AstralCell: 群星细胞
         DummyEnemy: 假想木偶
-        PolluxBoss: Pollux, Baleborn of Ice
-        CastorBoss: Castor, Baleborn of Fire
-        Dioskouroi: Dioskouroi, the Twin Forces
+        PolluxBoss: 冰河灾裔，波鲁克斯
+        CastorBoss: 炽炎灾裔，卡斯托尔
+        Dioskouroi: 双子星力，狄俄斯库洛伊
         NalhaunBoss: 复光之君，纳尔赫恩
         NalhaunBossPhase2: 空洞世界的统治者，纳尔赫恩
         PaintedAttendantA: 复生画刷
@@ -6903,7 +6902,7 @@
         }
         Arbitration:
         {
-          SpawnInfo: SpawnInfo: This foe embodies true fear... Discover this foe through visiting an Anomaly location with the Astrolabe's help.
+          SpawnInfo: SpawnInfo: This foe embodies true fear... Discover this foe through visiting an Anomaly location with 天体制图仪's help.
           DespawnMessage: 混沌与秩序交织吞噬了你。
         }
         TsukiyomiBoss:
